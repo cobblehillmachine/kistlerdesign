@@ -1,0 +1,133 @@
+body {margin:0; padding:0; width:100%; height:100%;}
+body.home {overflow:hidden;}
+a img {border:0;}
+.bgimg {position:absolute; z-index:-1;}
+#logo-top {position:fixed; left:0; top:68px; background:url(../images/logo.jpg) no-repeat; width:72px; height:210px; z-index:2;}
+.middle-cont {width:960px; height:100%; margin:auto; position:relative; z-index:1;}
+/*.wrapper {position:relative;}*/
+#main-img {position:absolute; top:0; left:0; z-index:0;}
+
+.gotham-black {font-family: "proxima-nova",sans-serif; font-style: normal; font-weight: 900; letter-spacing:4px;}
+.gotham-bold {font-family: "proxima-nova",sans-serif; font-style: normal; font-weight: 700; letter-spacing:4px;}
+.adobe-pro {font-family: "adobe-caslon-pro",serif; font-style: normal; font-weight: 400; letter-spacing:0.5px;}
+.page-title {font-size:38px; color:#fff; position:relative; float:left; text-transform:uppercase; width:100%;}
+.text {position:relative; float:left; font-size:15px; color:#4c4640; line-height:22px;}
+.button {position:relative; float:left; padding:25px 50px; background:#b35c27; border:none; color:#fff; text-transform:uppercase; font-size:10px; cursor:pointer; text-decoration:none;}
+.button:hover {background:#7f4826;}
+
+	/*HEADER*/
+#header {position:absolute; top:0; left:0; width:100%; z-index:2;}
+#about .img-bg, #commissions .img-bg, #gallery .img-bg {height:492px; background-color:#312724;}
+#about #img-cont, #commissions #img-cont, #gallery #img-cont {position:relative !important; width:100%;}
+.header-bg {position:absolute; top:0; left:0; z-index:0; background:url(../images/header-bg.jpg) repeat; height:185px; width:100%;}
+#logo-mobile, #mobile-tab {display:none;}
+
+	/*NAV*/
+#nav {position:relative; float:right; z-index:1;}
+#nav ul {margin:0;}
+#nav .menu-item {position:relative; float:left; list-style:none; margin-left:28px;}
+#nav .menu-item a {color:#fff; text-transform:uppercase; text-decoration:none; font-size:10px; font-family: "proxima-nova",sans-serif; font-style: normal; font-weight: 700; letter-spacing:4px;
+position:relative; float:left; /*margin-top:30px;*/  padding:40px 0 0 5px;}
+#nav .menu-item a:hover, #nav .current-menu-item  a, #nav .current-page-ancestor a {background:url(../images/nav-hover.png) repeat-x;}
+
+	/*FOOTER*/
+#footer {position:fixed; z-index:1; bottom:0; left:0; width:100%; height:55px; background:#2b201d; opacity:.95; filter:alpha(opacity=95);}
+#footer #logo-footer {position:relative; float:left; background:url(../images/logo-footer.png) no-repeat; width:43px; height:42px; margin-top:5px;}
+#footer #address {position:relative; float:left; font-size:10px; color:#fff; text-decoration:none; margin:22px 0 0 22px;}
+#footer #social-cont {position:relative; float:right;}
+#footer #facebook {position:relative; float:left; background:url(../images/facebook.png) no-repeat;}
+#footer #twitter {position:relative; float:left; background:url(../images/twitter.png) no-repeat;}
+#footer .social-links {margin-top:14px; width:30px; height:30px; margin-left:18px;}
+#footer .social-links:hover {background-size:32px !important; width:32px; height:32px; margin-left:16px;}
+
+	/*HOME*/
+#home #home-title {font-size:48px; text-transform:uppercase; color:#fff; position:absolute; text-align:center; letter-spacing:18px;}
+
+	/*ABOUT*/
+#about .page-title {width:550px;}
+#about #about-cont {margin-top:-60px;}
+#about #quote {position:relative; float:right; margin-top:10px;}
+#about .text-cont {position:relative; float:left; width:530px; margin-top:75px; padding-bottom:150px;}
+#about .text-cont .title {position:relative; float:left; font-size:12px; color:#312724; text-transform:uppercase; width:100%;}
+#about .text-cont .text {margin-top:15px;}
+
+	/*CONTACT*/
+#contact #contact-wrap {margin-top:125px;}
+#contact-cont {position:relative; float:left; width:525px; margin:35px 45px 100px 0;}
+#contact-cont .subtitle {font-size:22px; text-transform:uppercase; color:#312724; position:relative; float:left; margin-bottom:20px; width:100%;}
+#contact-cont .address {position:relative; float:left; font-size:11px; color:#7f6e60; margin:50px 0; width:265px; line-height:17px;}
+#contact-cont .address a {color:#b35c27; text-decoration:none;}
+#contact .wpcf7 {position:relative; float:left}
+#contact .input-cont {position:relative; float:left; margin:0 20px 20px 0; width:230px;}
+#contact .message-cont {position:relative; float:left; margin-bottom:20px;}
+#contact .message-cont textarea {width:513px; height:192px; padding-top:18px; resize:none;}
+#contact .form-input {width:218px; height:40px; background:#e7e3e0; border:none; padding-left:12px; color:#7f6e60; 
+	font-family: "proxima-nova",sans-serif; font-style: normal; font-weight: 700; letter-spacing:4px; font-size:11px; text-transform:uppercase;}
+#contact .wpcf7-response-output {font:normal 12px "proxima-nova"; font-weight: 700; letter-spacing:2px; position:relative; float:left; margin-top:20px; text-transform:uppercase;}
+#contact .submit-btn {position:relative; float:left; width:100%;}
+#contact .button {width:310px;}
+
+	/*COMMISSIONS*/
+#commissions #commissions-cont {margin-top:-60px;}
+#commissions .number {position:absolute; font-size:298px; z-index:-1; color:#f0ded4; margin:-58px 0 0 -70px;}
+#commissions .process-cont {position:relative; float:left; width:465px; margin-right:25px; padding-bottom:150px; display:none;}
+#commissions .process-cont .title {position:relative; float:left; font-size:12px; color:#312724; text-transform:uppercase; margin:65px 0 20px 0;}
+#commissions .button {margin-top:30px;}
+#commissions .grid {position:relative; float:right; width:470px; margin-top:40px;}
+#commissions .grid .nbr {font-size:144px; position:absolute; left:10px; color:#fff; opacity:.5; filter:alpha(opacity=50); /*bottom:-30px;*/ z-index:2;}
+#commissions .grid .box-title {position:relative; float:left; color:#fff; text-transform:uppercase; font-size:11px; margin:115px 20px 0 20px; z-index:3;}
+#commissions .grid .overlay {width:100%; height:100%; background:#f67f36; opacity:.6; filter:alpha(opacity=60); display:none;}
+#commissions .grid .box {width:225px; height:146px; position:relative; float:left; margin-bottom:25px; z-index:1; cursor:pointer;}
+#commissions .grid #box1, #commissions .grid #box3 {margin-right:18px;}
+#commissions .grid .box-img {position:absolute; top:0; left:0;}
+
+	/*PRODUCTS*/
+/*#products .header-bg {height:240px;}*/
+#products .title-cont {width:960px; height:100%; margin:auto; position:relative; z-index:1;}
+#products .page-title {margin:125px 0 0 10px;}
+#products #product-nav {position:relative; float:left; width:100%; height:55px; border-top:1px solid #bbb4b1; background:url(../images/header-bg.jpg) repeat; z-index:1; margin-top:14px;}
+#products .cat-cont {font-size:10px; color:#bbb4b1; text-transform:uppercase; position:relative; float:left; cursor:pointer; width:160px; margin-right:20px;}
+#products .sort-by {position:relative; float:left; width:100%; padding:21px 15px 0 12px;}
+#products .cat-cont.color {background-position:18% 0%;}
+#products .cat-cont.material {background-position:35% 0%;}
+#products .drop-list {position:relative; float:left; margin-top:20px; display:none; padding:21px 15px 0 12px; background:url(../images/header-bg.jpg) repeat 52% 0;}
+#products .cat-name {margin-bottom:20px; position:relative; float:left; width:100%; color:#bbb4b1; text-decoration:none;}
+#products .cat-name:hover {color:#fff;}
+#products #product-wrap {position:relative; float:left; width:100%; padding-bottom:100px; z-index:0;}
+#products #product-wrap .last {margin-right:0px;}
+#products .product-cont {position:relative; float:left; width:225px; height:200px; margin:25px 15px 25px 0; text-align:center; padding-top:24px;}
+#products .product-cont:hover {border:1px solid #ba6c3c; padding-top:23px; width:223px; margin-bottom:24px;}
+#products .product-cont .overlay {position:absolute; width:100%; height:100%; background:#fff; opacity:.8; filter:alpha(opacity=80); top:0; left:0; display:none;}
+#products .product-cont .product-name {position:absolute; width:100%; text-align:center; font-size:10px; color:#b35c27; text-transform:uppercase; top:105px; left:0; display:none;}
+#products .product-line {position:relative; float:left; width:100%; height:1px; background:#bbb4b1; display:none;}
+#products .mobile-line {display:none;}
+
+	/*SINGLE PRODUCT*/
+#products #single-item {position:relative; float:left; width:100%;}
+#products #crumbs {text-transform:uppercase; font-size:10px; color:#bbb4b1; margin-top:20px;}
+#products #crumbs a {text-decoration:none; color:#bbb4b1 !important;}
+#products #crumbs a:hover, #products #crumbs span {color:#fff !important;}
+#products .single-cont {position:relative; float:left; width:525px; margin-top:60px; padding-bottom:150px;}
+#products .single-title, #products .dimensions, #products .materials {position:relative; float:left; font-size:22px; color:#312724; text-transform:uppercase; width:100%;}
+#products .text {margin:20px 0 40px 0;}
+#products .dimensions {font-size:12px; margin-bottom:40px;}
+#products .materials {font-size:12px; margin-bottom:14px;}
+#products .single-image {position:relative; float:left; margin-left:40px; width:390px; height:390px;}
+#products .single-image img {width:100%; height:100%;}
+
+	/*GALLERY*/
+#gallery #gallery-cont {margin-top:-60px;}
+#gallery #gallery-wrap {position:relative; float:left; width:100%; padding-bottom:100px; z-index:0; margin-top:65px;}
+#gallery #gallery-wrap .last {margin-right:0px;}
+#gallery .gallery-cont {position:relative; float:left; width:308px; height:225px; margin:25px 15px 20px 0; text-align:center;}
+#gallery .gallery-cont:hover {border:1px solid #ba6c3c; width:310px; margin:24px 12px 19px -1px;}
+#gallery .gallery-cont .overlay {position:absolute; width:100%; height:100%; background:#fff; opacity:.8; filter:alpha(opacity=80); top:0; left:0; display:none;}
+#gallery .gallery-cont .product-name {position:absolute; width:100%; text-align:center; font-size:10px; color:#b35c27; text-transform:uppercase; top:105px; left:0; display:none;}
+#gallery .gallery-line {position:relative; float:left; width:100%; height:1px; background:#bbb4b1; display:none;}	
+
+.gallery {padding-bottom:15px; z-index:0;}	
+.galleria-container, .galleria-stage, .galleria-images, .galleria-stage .galleria-image, .galleria-image img {width:100% !important;}
+
+
+
+
