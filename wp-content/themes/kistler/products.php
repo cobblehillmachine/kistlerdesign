@@ -21,7 +21,7 @@ get_header(); ?>
 					    if($sub_cats) {
 					        echo '<div class="drop-list">';
 					        foreach($sub_cats as $sub_cat) {
-					        echo '<a class="cat-name" href="'.get_category_link($sub_cat->term_id).'">'.$sub_cat->name.'</a>';
+					        echo '<div id="'.$sub_cat->name.'" class="cat-name">'.$sub_cat->name.'</div>';
 					        }
 					        echo '</div>';
 					    echo '</div>';

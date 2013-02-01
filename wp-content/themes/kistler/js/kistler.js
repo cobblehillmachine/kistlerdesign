@@ -30,6 +30,7 @@ $(document).ready(function() {
 	//displayLine();
 	showNavMobile();
 	resizeGalleryImg();
+	selectProduct();
 
 	
 
@@ -224,6 +225,22 @@ function resizeGalleryImg() {
 		$('.galleria-stage .galleria-image img').css({'width':newImageWidth, 'height':newImageHeight, 'left':-(newLeft)});
 		//$('body').css('overflow' , 'hidden');
 	}
+}
+
+function selectProduct() {
+	$('.drop-list .cat-name').each(function() {
+		var id = $(this).attr('id');
+		$(this).click(function() {
+			$('.product-cont').each(function() {
+				if ($(this).hasClass(id)) {
+					$(this).fadeIn('slow');
+				} else {
+					$(this).hide();
+				}
+			})
+		});
+
+	});
 }
 
 
