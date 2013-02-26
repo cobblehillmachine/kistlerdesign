@@ -126,8 +126,8 @@ position:relative; float:left; /*margin-top:30px;*/  padding:40px 0 0 5px;}
 #gallery .gallery-line {position:relative; float:left; width:100%; height:1px; background:#bbb4b1; display:none;}	
 
 .gallery {padding-bottom:15px; z-index:0;}	
-.galleria-container, .galleria-stage, .galleria-images, .galleria-stage .galleria-image, .galleria-image img {width:100% !important;}
-
+.galleria-container, .galleria-stage, .galleria-images, .galleria-stage .galleria-image {width:100% !important;}
+.galleria-image img {max-width:100% !important; max-height:100% !important;}
 
 
 

@@ -9,7 +9,9 @@
  * @since Twenty Eleven 1.0
  */
 ?>
+<div class="project">
 <?php the_content(); ?>
+</div>
 
 <!-- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 

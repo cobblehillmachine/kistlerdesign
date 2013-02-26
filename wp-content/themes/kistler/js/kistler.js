@@ -31,7 +31,7 @@ $(document).ready(function() {
 	showNavMobile();
 	resizeGalleryImg();
 	selectProduct();
-
+	projectImgResize();
 	
 
 
@@ -43,6 +43,7 @@ $(window).resize(function() {
 	//centerItem('.wrapper', 1280);
 	setImageWidth();
 	resizeGalleryImg();
+	projectImgResize();
 	
 });
 
@@ -243,6 +244,10 @@ function selectProduct() {
 	});
 }
 
-
+function projectImgResize() {
+	contW = $(window).width();
+	contH = $(window).height();
+	$('.galleria-image').css({width: contW, height:contH - 150 +'px'});
+}
 
 
